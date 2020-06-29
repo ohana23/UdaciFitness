@@ -12,7 +12,7 @@ export function removeEntry(key) {
         .then((results) => {
             const data = JSON.parse(results)
             data[key] = undefined
-            delete date[key]
+            delete data[key]
             AsyncStorage.setItem(CALENDAR_STORAGE_KEY, JSON.stringify(data))
         })
 }
