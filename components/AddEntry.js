@@ -111,7 +111,7 @@ class AddEntry extends Component {
           />
           <Text>You already logged your information for today.</Text>
           <TextButton style={{ padding: 10 }} onPress={this.reset}>
-            Reset
+            RESET
           </TextButton>
         </View>
       );
